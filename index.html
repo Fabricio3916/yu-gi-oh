@@ -18,9 +18,15 @@
     <!-- main style -->
     <link rel="stylesheet" href="src/styles/main.css">
 
+    <!-- Favicon -->
+     <link rel="shortcut icon" href="./src/assets/favicon/Favicon.ico" type="image/x-icon">
+
     <title>Yu-Gi-Oh Jo-ken-po Edition</title>
 </head>
 <body>
+    <audio id="bgm" loop>
+        <source src="./src/assets/audios/egyptian_duel.mp3" type="audio/mp3"/>
+    </audio>
      <div class="bg-video">
         <video class="video" autoplay loop muted>
             <source src="./src/assets/video/yugi.mp4" type="video/mp4"/>
@@ -58,7 +64,7 @@
                         </div>
                     </div>
                     <div class="versus-bottom">
-                        <button id="next-duel" class="rpgui-button" onclick="resetduel()">GANHOU</button>
+                        <button id="next-duel" class="rpgui-button" onclick="resetDuel()">GANHOU</button>
                     </div>
                 </div>
 
